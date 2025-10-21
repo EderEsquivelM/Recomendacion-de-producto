@@ -4,7 +4,7 @@ import numpy as np
 X_train_text = np.load("D:/PIA-IA/dataset/datasetDividido/X_train_text.npy", allow_pickle=True)
 
 # Para features numéricas
-X_train_numeric = np.load("D:/PIA-IA/dataset/datasetDividido/X_train_numeric.npy")
+X_train_numeric = np.load("D:/PIA-IA/dataset/datasetDividido/X_test_numeric.npy")
 
 # Para labels
 y_train = np.load("D:/PIA-IA/dataset/datasetDividido/y_train.npy")
