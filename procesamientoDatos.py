@@ -11,7 +11,7 @@ import os
 # 1. CARGA DEL DATASET JSONL
 # ============================================
 data = []
-with open("D:/PIA-IA/dataset/datasetFiltrado.jsonl", 'r', encoding='utf-8') as f:
+with open("datasetFiltrado.jsonl", 'r', encoding='utf-8') as f:
     for i, line in enumerate(f):
         try:
             review = json.loads(line)
@@ -119,7 +119,7 @@ print(f"Test:  {len(X_test)} ({len(X_test)/len(df)*100:.1f}%)")
 print("\nGuardando datos procesados...")
 
 # Crear carpeta de salida si no existe
-output_dir = "D:/PIA-IA/dataset/datasetDividido"
+output_dir = "datasetDividido"
 os.makedirs(output_dir, exist_ok=True)
 
 # Guardar arrays numpy

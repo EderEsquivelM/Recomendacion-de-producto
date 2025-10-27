@@ -1,8 +1,8 @@
 import json
 import random
 
-archivo_entrada = "D:/PIA-IA/dataset/Electronics.jsonl"
-archivo_salida = "D:/PIA-IA/dataset/datasetFiltrado.jsonl"
+archivo_entrada = "Electronics.jsonl"
+archivo_salida = "datasetFiltrado.jsonl"
 limite = 1000000
 
 total_datos = 0
